@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>
+           Online Coffee Shop
+        </h1>
+        <p>
+            Click on the +, - or x on the products to manage the quantity you would like <br>and then hit the "Buy Now" to send the order.
+        </p>
+
+        <p>
+            You only have <b>$250</b> to buy the products you want.
+        </p>
+    </div>
+    <div class="cart-container">
+        <div class="empty" style="display:none">
+            No more twinkies !
+        </div>
+        <ul class="cart">
+            <li class="product" data-name="cupcake" data-price="29.00" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/sidebar-cupcake.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Cupcake
+                        </div>
+                        <div class="product-price">
+                            $ 29.00
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="coffee" data-price="35.00" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/ponytails-coffee-time-coffee-cup3.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Coffee
+                        </div>
+                        <div class="product-price">
+                            $ 35.00
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="chocolate" data-price="12.50" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/Chocolate.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Chocolate
+                        </div>
+                        <div class="product-price">
+                            $ 12.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="waffle" data-price="6.90" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/waffle-homestyle.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Waffle
+                        </div>
+                        <div class="product-price">
+                            $ 6.90
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="donuts" data-price="18.90" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/donuts.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Donuts
+                        </div>
+                        <div class="product-price">
+                            $ 18.90
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="sorbet" data-price="28.00" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/raspberry-sorbet.gif" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Sorbet
+                        </div>
+                        <div class="product-price">
+                            $ 28.00
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="croissant" data-price="4.80" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/croissant-psd49504.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Croissant
+                        </div>
+                        <div class="product-price">
+                            $ 4.80
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-name="macaron" data-price="120.00" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image" src="https://s.cdpn.io/24822/Macaron.png" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Macaron
+                        </div>
+                        <div class="product-price">
+                            $ 120.00
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <table class="bill">
+        <tr class="subtotal">
+            <td class="label">
+                Subtotal :
+            </td>
+            <td class="value">
+                $ 0
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label">
+                Shipping (Flat Fee) :
+            </td>
+            <td class="value">
+                $ 5.00
+            </td>
+        </tr>
+        <tr class="total">
+            <td class="label">
+                Total :
+            </td>
+            <td class="value">
+                $ 0
+            </td>
+        </tr>
+    </table>
+    <div class="actions">
+        <div class="big-button go" onclick="sendPurchaseDb()">
+            Buy Now
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+
+    <script type="text/javascript" src="/resources/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
